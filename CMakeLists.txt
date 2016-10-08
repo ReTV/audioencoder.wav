@@ -6,9 +6,9 @@ set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${PROJECT_SOURCE_DIR})
 
 enable_language(CXX)
 
-find_package(kodi REQUIRED)
+find_package(retv REQUIRED)
 
-include_directories(${KODI_INCLUDE_DIR})
+include_directories(${RETV_INCLUDE_DIR})
 
 set(WAV_SOURCES src/EncoderWav.cpp)
 set(DEPLIBS)
